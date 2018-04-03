@@ -12,3 +12,9 @@ Most of the questions are open-ended, and some of them just don't have a right o
 Again, I stress that just asking questions is hardly sufficient. Complete the interview with a long pair programming session with your candidates: it is one of the best opportunities to know each others' style and approach and to let candidates know some details about their future day job.
 
 This project is admittedly inspired by Back-End Developer Interview Questions by @arialdomartini
+
+
+#### [↑] Questions about Design Patterns:
+- Q. What is an Anti-corruption Layer?
+
+  A. Implement a façade or adapter layer between different subsystems that don't share the same semantics. This layer translates requests that one subsystem makes to the other subsystem. Use this pattern to ensure that an application's design is not limited by dependencies on outside subsystems. This pattern was first described by Eric Evans in Domain-Driven Design.
