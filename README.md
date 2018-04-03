@@ -18,3 +18,14 @@ This project is admittedly inspired by Back-End Developer Interview Questions by
 - Q. What is an Anti-corruption Layer?
 
   A. Implement a façade or adapter layer between different subsystems that don't share the same semantics. This layer translates requests that one subsystem makes to the other subsystem. Use this pattern to ensure that an application's design is not limited by dependencies on outside subsystems. This pattern was first described by Eric Evans in Domain-Driven Design.
+
+
+  - Q. What is an Anti-corruption Layer?
+
+    A. Implement a façade or adapter layer between different subsystems that don't share the same semantics. This layer translates requests that one subsystem makes to the other subsystem. Use this pattern to ensure that an application's design is not limited by dependencies on outside subsystems. This pattern was first described by Eric Evans in Domain-Driven Design. Use this pattern when:
+   
+    a) A migration is planned to happen over multiple stages, but integration between new and legacy systems needs to be maintained. 
+    
+    b) Two or more subsystems have different semantics, but still need to communicate.
+    
+    
